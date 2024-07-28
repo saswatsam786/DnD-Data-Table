@@ -110,6 +110,7 @@ export default function Home() {
 
   return (
     <section className="container mt-6">
+      <h2 className="text-2xl font-semibold mb-4">DnD Data Table</h2>
       <div className="mb-4">
         <button onClick={storeDataToLocalStorage} className="px-4 py-2 bg-blue-500 text-white rounded">
           Initialize Data in Local Storage
