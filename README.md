@@ -1,36 +1,51 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Dynamic Data Table with Drag-and-Drop Functionality
 
-## Getting Started
+This project is an interactive and customizable data table component built with React and Next.js, featuring drag-and-drop support for reordering rows, inline editing, and image uploads.
 
-First, run the development server:
+** _Live Link_ - https://dn-d-data-table.vercel.app/ **
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Table of Contents
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Features
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- **Drag-and-Drop Reordering**: Easily reorder table rows using drag-and-drop.
+- **Inline Editing**: Edit table data directly within the table.
+- **Image Uploads**: Upload and display images within table cells.
+- **Multi-Select Dropdowns**: Use multi-select dropdowns within table cells for advanced filtering options.
+- **Dynamic Data Handling**: Add, update, and remove rows dynamically.
 
-## Learn More
+## Technologies Used
 
-To learn more about Next.js, take a look at the following resources:
+- **React**: A JavaScript library for building user interfaces.
+- **Next.js**: A React framework for server-side rendering and static site generation.
+- **React-DnD**: A set of React utilities to create complex drag-and-drop interfaces.
+- **TanStack Table**: A headless table library for creating powerful table components.
+- **Lucide Icons**: A library of beautiful and customizable icons.
+- **TypeScript**: A statically typed superset of JavaScript.
+- **Local Storage**: Store and retrieve table data from local storage.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Installation
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+To get started with this project, follow these steps:
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/saswatsam786/DnD-Data-Table
+   cd DnD-Data-Table
+   ```
+2. **Install dependencies**:
+   ```
+   npm install
+   ```
+3. **Start the development server:**
+   ```
+   npm run dev
+   ```
+4. **Open your browser and navigate to:**
+   ```
+    http://localhost:3000
+   ```
